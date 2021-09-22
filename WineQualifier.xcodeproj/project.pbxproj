@@ -11,6 +11,9 @@
 		3FAD5F6F26FBA24C00D09203 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD5F6E26FBA24C00D09203 /* ContentView.swift */; };
 		3FAD5F7126FBA24E00D09203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAD5F7026FBA24E00D09203 /* Assets.xcassets */; };
 		3FAD5F7426FBA24E00D09203 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAD5F7326FBA24E00D09203 /* Preview Assets.xcassets */; };
+		3FAD5F7F26FBA31800D09203 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD5F7E26FBA31800D09203 /* ViewModel.swift */; };
+		3FAD5F8226FBA3F200D09203 /* QualityCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD5F8126FBA3F200D09203 /* QualityCalculator.swift */; };
+		3FAD5F8426FBA42B00D09203 /* VineQuality 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD5F8326FBA42B00D09203 /* VineQuality 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		3FAD5F6E26FBA24C00D09203 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FAD5F7026FBA24E00D09203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FAD5F7326FBA24E00D09203 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FAD5F7E26FBA31800D09203 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3FAD5F8126FBA3F200D09203 /* QualityCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualityCalculator.swift; sourceTree = "<group>"; };
+		3FAD5F8326FBA42B00D09203 /* VineQuality 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "VineQuality 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,12 @@
 		3FAD5F6B26FBA24C00D09203 /* WineQualifier */ = {
 			isa = PBXGroup;
 			children = (
+				3FAD5F8026FBA3C300D09203 /* Tools */,
+				3FAD5F7D26FBA2AE00D09203 /* ML */,
+				3FAD5F7C26FBA27200D09203 /* Models */,
+				3FAD5F7B26FBA26800D09203 /* Views */,
+				3FAD5F7A26FBA25B00D09203 /* ViewModel */,
 				3FAD5F6C26FBA24C00D09203 /* WineQualifierApp.swift */,
-				3FAD5F6E26FBA24C00D09203 /* ContentView.swift */,
 				3FAD5F7026FBA24E00D09203 /* Assets.xcassets */,
 				3FAD5F7226FBA24E00D09203 /* Preview Content */,
 			);
@@ -65,6 +75,45 @@
 				3FAD5F7326FBA24E00D09203 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FAD5F7A26FBA25B00D09203 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3FAD5F7E26FBA31800D09203 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3FAD5F7B26FBA26800D09203 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FAD5F6E26FBA24C00D09203 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FAD5F7C26FBA27200D09203 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3FAD5F7D26FBA2AE00D09203 /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				3FAD5F8326FBA42B00D09203 /* VineQuality 1.mlmodel */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		3FAD5F8026FBA3C300D09203 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3FAD5F8126FBA3F200D09203 /* QualityCalculator.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +187,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FAD5F6F26FBA24C00D09203 /* ContentView.swift in Sources */,
+				3FAD5F8226FBA3F200D09203 /* QualityCalculator.swift in Sources */,
+				3FAD5F7F26FBA31800D09203 /* ViewModel.swift in Sources */,
 				3FAD5F6D26FBA24C00D09203 /* WineQualifierApp.swift in Sources */,
+				3FAD5F8426FBA42B00D09203 /* VineQuality 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

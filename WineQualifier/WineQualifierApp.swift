@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct WineQualifierApp: App {
+    @StateObject var vm:ViewModel = ViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(vm)
         }
     }
 }
