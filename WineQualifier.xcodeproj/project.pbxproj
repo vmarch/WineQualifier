@@ -57,12 +57,11 @@
 		3FAD5F6B26FBA24C00D09203 /* WineQualifier */ = {
 			isa = PBXGroup;
 			children = (
+				3FAD5F6C26FBA24C00D09203 /* WineQualifierApp.swift */,
 				3FAD5F8026FBA3C300D09203 /* Tools */,
 				3FAD5F7D26FBA2AE00D09203 /* ML */,
-				3FAD5F7C26FBA27200D09203 /* Models */,
 				3FAD5F7B26FBA26800D09203 /* Views */,
 				3FAD5F7A26FBA25B00D09203 /* ViewModel */,
-				3FAD5F6C26FBA24C00D09203 /* WineQualifierApp.swift */,
 				3FAD5F7026FBA24E00D09203 /* Assets.xcassets */,
 				3FAD5F7226FBA24E00D09203 /* Preview Content */,
 			);
@@ -91,13 +90,6 @@
 				3FAD5F6E26FBA24C00D09203 /* ContentView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		3FAD5F7C26FBA27200D09203 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		3FAD5F7D26FBA2AE00D09203 /* ML */ = {

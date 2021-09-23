@@ -20,7 +20,11 @@ class ViewModel: ObservableObject{
     @Published var pH: Double = 3.28 { didSet{ getQuality() }}
     @Published var sulphates: Double = 0.48 { didSet{ getQuality() }}
     @Published var alcohol: Double = 11.4 { didSet{ getQuality() }}
+    
     @Published var quality: Double = 0.0
+    
+    @Published var colorTop: String = "YellowLite"
+    @Published var colorBottom: String = "CremeLite"
     
     func getQuality(){
         quality = QualityCalculator.calculateQuality(type: type, fixed_acidity: fixed_acidity, volatile_acidity: volatile_acidity, citric_acid: citric_acid, residual_sugar: residual_sugar, chlorides: chlorides, free_sulfur_dioxide: free_sulfur_dioxide, total_sulfur_dioxide: total_sulfur_dioxide, density: density, pH: pH, sulphates: sulphates, alcohol: alcohol)
